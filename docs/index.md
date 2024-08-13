@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: react
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      link: /react/index
+    # - theme: alt
+    #   text: API Examples
+    #   link: /api-examples
 
 features:
   - title: react

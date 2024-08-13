@@ -12,10 +12,10 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
-      { text: 'Runtime API Examples', link: '/api-examples' },
+      // { text: 'Examples', link: '/markdown-examples' },
+      // { text: 'Runtime API Examples', link: '/api-examples' },
       { text: 'react', link: '/react/index' },
-      { text: 'vue', items: [{text: 'vue1', link: '/vue/vue1'},{text: 'vue2', link: '/vue/vue2'}] },
+      // { text: 'vue', items: [{text: 'vue1', link: '/vue/vue1'},{text: 'vue2', link: '/vue/vue2'}] },
     ],
     search: {
       provider: 'local'
