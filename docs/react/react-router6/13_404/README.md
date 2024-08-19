@@ -117,3 +117,5 @@
 <<< @/react/react-router6/13_404/route/index.js
 
 :::
+
+![案例](/react/react-router6/2024-08-19%2015.28.08.gif)
