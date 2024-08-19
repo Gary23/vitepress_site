@@ -28,12 +28,13 @@
 
 :::
 
-
-::: details MyNavLink组件
+**MyNavLink组件**
 
 对`NavLink`标签二次封装，可以自定义`activeClassName`，接收`to`传参，这样就不用写很多`activeClassName`
 
 父组件传入的文本节点在`props`中的属性名叫做`children`，所以可以直接写`children`属性代替文本节点
+
+::: details MyNavLink组件
 
 ::: code-group
 
@@ -42,7 +43,7 @@
 :::
 
 
-::: details about组件
+::: details about路由组件
 
 ::: code-group
 
@@ -51,7 +52,7 @@
 :::
 
 
-::: details home组件
+::: details home路由组件
 
 ::: code-group
 

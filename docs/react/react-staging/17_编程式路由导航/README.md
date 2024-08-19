@@ -45,7 +45,7 @@
 :::
 
 
-::: details about组件
+::: details about路由组件
 
 ::: code-group
 
@@ -53,10 +53,11 @@
 
 :::
 
-
-::: details home组件
+**home路由组件**
 
 `message`组件不使用`MyNavLink`组件跳转，通过点击事件跳转调用`history.push`跳转
+
+::: details home路由组件
 
 ::: code-group
 

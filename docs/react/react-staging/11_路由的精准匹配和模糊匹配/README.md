@@ -17,7 +17,7 @@
 └─ index.js
 ```
 
-::: details 根组件
+**根组件**
 
 在`Route`组件配置`exact`属性
 
@@ -32,6 +32,7 @@
   
   `to`属性的路径必须和path的路径完全一样
 
+::: details 根组件
 
 ::: code-group 
 
@@ -51,7 +52,7 @@
 :::
 
 
-::: details about组件
+::: details about路由组件
 
 ::: code-group
 
@@ -60,7 +61,7 @@
 :::
 
 
-::: details home组件
+::: details home路由组件
 
 ::: code-group
 

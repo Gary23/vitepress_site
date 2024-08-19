@@ -47,7 +47,7 @@
 :::
 
 
-::: details about组件
+::: details about路由组件
 
 ::: code-group
 
@@ -55,10 +55,11 @@
 
 :::
 
-
-::: details home组件
+**home路由组件**
 
 增加三级路由组件，使用params传参，message组件的列表点击后展示detail详情组件并接收传参
+
+::: details home路由组件
 
 ::: code-group
 

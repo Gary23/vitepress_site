@@ -14,11 +14,13 @@
 └─ index.js
 ```
 
-::: details 根组件
+**根组件**
 
 `NavLink`主要是可以自定义class类名
 
 用`NavLink`，会自动给当前选中的`Link`标签增加一个`active`class类名，也可以自定义`activeClassName="active"`
+
+::: details 根组件
 
 ::: code-group 
 
@@ -28,7 +30,7 @@
 
 :::
 
-::: details about组件
+::: details about路由组件
 
 ::: code-group
 
@@ -37,7 +39,7 @@
 :::
 
 
-::: details home组件
+::: details home路由组件
 
 ::: code-group
 

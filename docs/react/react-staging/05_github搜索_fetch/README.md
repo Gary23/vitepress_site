@@ -31,9 +31,11 @@
 └─ setupProxy.js
 ```
 
-::: details 根组件
+**根组件**
 
 根组件不需要有自己的状态了
+
+::: details 根组件
 
 ::: code-group
 
@@ -43,8 +45,7 @@
 
 :::
 
-
-::: details List组件
+**List组件**
 
 把原来根组件的状态都给List组件
 
@@ -54,17 +55,19 @@
 
 销毁钩子中取消订阅
 
+::: details List组件
+
 ::: code-group
 
 <<< @/react/react-staging/05_github搜索_fetch/components/List/index.jsx
 
 :::
 
-
-
-::: details Search组件
+**Search组件**
 
 由更新App状态，改为通过消息发布来更新List组件中的状态
+
+::: details Search组件
 
 ::: code-group
 
@@ -73,7 +76,7 @@
 :::
 
 
-::: details server目录
+::: info server目录
 
 运行 `node server1.js` 命令启动服务，启动后在项目里才能通过setupProxy跨域请求接口
 

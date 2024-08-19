@@ -28,15 +28,15 @@ Router分两种，`BrowserRouter`和`HashRouter`
 └─ index.js
 ```
 
-
-
-::: details 根组件
+**根组件**
 
 这里使用`BrowserRouter`标签，用`BrowserRouter`嵌套整个页面，也可以在index.js文件中嵌套整个App组件
 
 路由链接使用`Link`标签，`to`属性是路由路径，`path`是路由地址
 
 路由视图使用`Route`标签，根据路径匹配，`component`是引入的组件
+
+::: details 根组件
 
 ::: code-group 
 
@@ -47,7 +47,7 @@ Router分两种，`BrowserRouter`和`HashRouter`
 :::
 
 
-::: details about组件
+::: details about路由组件
 
 ::: code-group
 
@@ -56,7 +56,7 @@ Router分两种，`BrowserRouter`和`HashRouter`
 :::
 
 
-::: details home组件
+::: details home路由组件
 
 ::: code-group
 

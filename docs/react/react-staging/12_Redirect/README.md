@@ -17,11 +17,13 @@
 └─ index.js
 ```
 
-::: details 根组件
+**根组件**
 
 `Redirect`重定向组件，主要用于进入首页后重定向到一个路径
 
 `Redirect`组件可以给所有`Route`组件兜底，所有`path`都没有匹配上，最后会展示`Redirect`组件（`to`属性指定一个兜底路径）
+
+::: details 根组件
 
 ::: code-group 
 
@@ -41,7 +43,7 @@
 :::
 
 
-::: details about组件
+::: details about路由组件
 
 ::: code-group
 
@@ -50,7 +52,7 @@
 :::
 
 
-::: details home组件
+::: details home路由组件
 
 ::: code-group
 

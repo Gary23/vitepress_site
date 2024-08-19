@@ -42,7 +42,7 @@
 :::
 
 
-::: details about组件
+::: details about路由组件
 
 ::: code-group
 
@@ -50,14 +50,15 @@
 
 :::
 
-
-::: details home组件
+**home路由组件**
 
 二级路由
 
 Home目录下，新建`News`组件和`Message`组件
 
 二级路由的`to`属性，要携带一级路由的路径，比如这里要在`/home`的基础上写：`/home/news`、`/home/message`
+
+::: details home路由组件
 
 ::: code-group
 

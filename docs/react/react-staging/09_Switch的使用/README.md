@@ -17,12 +17,13 @@
 └─ index.js
 ```
 
-
-::: details 根组件
+**根组件**
 
 如果`Route`标签的同一个路径写了两个不同的`component`，会同时展示出两个组件
 
 用Switch组件可以解决这个问题，把所有`Route`组件嵌套，这样如果写了多个路径，只会使用第一个匹配的组件
+
+::: details 根组件
 
 ::: code-group 
 
@@ -42,7 +43,7 @@
 :::
 
 
-::: details about组件
+::: details about路由组件
 
 ::: code-group
 
@@ -51,7 +52,7 @@
 :::
 
 
-::: details home组件
+::: details home路由组件
 
 ::: code-group
 

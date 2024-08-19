@@ -13,11 +13,14 @@
 └─ index.js
 ```
 
-::: details 根组件
+**根组件**
 
 引入react
 
 `{Component}` 是因为react输出了多个对象，而不是对react的解构赋值
+
+
+::: details 根组件
 
 ::: code-group
 

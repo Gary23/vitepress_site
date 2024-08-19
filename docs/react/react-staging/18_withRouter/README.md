@@ -39,10 +39,11 @@
 
 :::
 
-
-::: details Header组件
+**Header组件**
 
 普通组件最后的抛出组件的使用调用`withRouter`，返回的组件挂载上了路由组件的api
+
+::: details Header组件
 
 ::: code-group
 
@@ -60,7 +61,7 @@
 :::
 
 
-::: details about组件
+::: details about路由组件
 
 ::: code-group
 
@@ -69,7 +70,7 @@
 :::
 
 
-::: details home组件
+::: details home路由组件
 
 ::: code-group
 
