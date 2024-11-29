@@ -15,6 +15,7 @@ export default defineConfig({
       // { text: 'Examples', link: '/markdown-examples' },
       // { text: 'Runtime API Examples', link: '/api-examples' },
       { text: 'react', link: '/react/index' },
+      { text: '浏览器', link: '/browser/index' },
       // { text: 'vue', items: [{text: 'vue1', link: '/vue/vue1'},{text: 'vue2', link: '/vue/vue2'}] },
     ],
     search: {
@@ -24,6 +25,7 @@ export default defineConfig({
       '/react/': getSiderBarList('/react'),
       '/': getSiderBarList(''),
       '/vue/': getSiderBarList('/vue'),
+      '/browser/': getSiderBarList('/browser'),
     }
     // sidebar: [
     //   {

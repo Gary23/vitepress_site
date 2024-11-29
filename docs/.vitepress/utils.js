@@ -1,8 +1,12 @@
 import react from './router/react/index'
+import browser from './router/browser/index'
 
 export const getSiderBarList = (pathname) => {
   if (pathname === '/react') {
     return [react]
+  }
+  else if (pathname === '/browser') {
+    return [browser]
   }
   else if (pathname === '/vue') {
     return [

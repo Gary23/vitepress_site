@@ -10,6 +10,9 @@ hero:
     - theme: brand
       text: react
       link: /react/index
+    - theme: brand
+      text: 浏览器
+      link: /browser/index
     # - theme: alt
     #   text: API Examples
     #   link: /api-examples
