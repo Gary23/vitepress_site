@@ -8,7 +8,7 @@ export default [
     link: '/browser/浏览器工作原理/2_网络协议' 
   },
   {
-    text: '导航流程',
+    text: '导航流程（输入URL到页面展示，这中间发生了什么）',
     link: '/browser/浏览器工作原理/3_导航流程' 
   },
   {
@@ -18,5 +18,9 @@ export default [
   {
     text: 'JavaScript执行机制',
     link: '/browser/浏览器工作原理/5_JavaScript执行机制' 
+  },
+  {
+    text: 'V8工作原理（JavaScript的内存机制 ）',
+    link: '/browser/浏览器工作原理/6_V8工作原理' 
   },
 ] 
