@@ -23,4 +23,8 @@ export default [
     text: 'V8工作原理（JavaScript的内存机制 ）',
     link: '/browser/浏览器工作原理/6_V8工作原理' 
   },
+  {
+    text: '浏览器的页面循环系统',
+    link: '/browser/浏览器工作原理/7_浏览器的页面循环系统' 
+  },
 ] 
