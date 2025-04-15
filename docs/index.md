@@ -13,6 +13,9 @@ hero:
     - theme: brand
       text: 浏览器
       link: /browser/index
+    - theme: brand
+      text: vue
+      link: /vue/index
     # - theme: alt
     #   text: API Examples
     #   link: /api-examples

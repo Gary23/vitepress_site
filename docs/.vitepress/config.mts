@@ -16,6 +16,7 @@ export default defineConfig({
       // { text: 'Runtime API Examples', link: '/api-examples' },
       { text: 'react', link: '/react/index' },
       { text: '浏览器', link: '/browser/index' },
+      { text: 'vue', link: '/vue/index' },
       // { text: 'vue', items: [{text: 'vue1', link: '/vue/vue1'},{text: 'vue2', link: '/vue/vue2'}] },
     ],
     search: {
