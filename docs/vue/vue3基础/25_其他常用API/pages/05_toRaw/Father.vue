@@ -10,6 +10,10 @@
 </template>
 
 <script setup lang="ts" name="Father">
+	/**
+	 * toRaw 是将响应式对象转换为普通对象，不再是响应式对象
+	 */
+
 	import { reactive, toRaw } from 'vue'
 
 	let person1 = reactive({

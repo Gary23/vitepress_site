@@ -19,6 +19,11 @@
 </template>
 
 <script setup lang="ts" name="Father">
+
+	/**
+	 * shallowReadonly 是浅只读的，不能修改值，但是可以修改对象的属性，只会对对象的第一层属性进行响应式处理
+	 */
+
 	import { ref, shallowReadonly, reactive } from 'vue'
 
 	let sum1 = ref(0)

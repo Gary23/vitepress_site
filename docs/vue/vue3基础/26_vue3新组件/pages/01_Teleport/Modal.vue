@@ -10,6 +10,11 @@
 </template>
 
 <script setup lang="ts" name="Modal">
+/**
+ * Teleport组件：用于将组件的内容移动到指定的DOM元素中
+ * 注意：Teleport组件只能用于组件的内容，不能用于组件的标签
+ */
+
 import { ref } from 'vue'
 let isShow = ref(false)
 </script>

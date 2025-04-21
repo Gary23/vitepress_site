@@ -9,6 +9,9 @@
 </template>
 
 <script setup lang="ts" name="Father">
+	/**
+	 * shallowReactive 只会对对象的第一层属性进行响应式处理，而不会对对象的嵌套属性进行响应式处理。
+	 */
 	import { shallowReactive } from 'vue'
 
 	let car = shallowReactive({

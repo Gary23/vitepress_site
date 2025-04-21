@@ -12,6 +12,9 @@
 </template>
 
 <script setup lang="ts" name="Father">
+	/**
+	 * shallowRef 是浅响应的，可以监听对象的第一层属性的变化，不会对对象的第二层属性进行响应式处理
+	 */
 	import { shallowRef } from 'vue'
 
 	let sum = shallowRef(0)

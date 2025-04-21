@@ -19,6 +19,11 @@
 </template>
 
 <script setup lang="ts" name="Father">
+
+	/**
+	 * readonly 是只读的，不能修改值，但是可以修改对象的属性
+	 */
+
 	import { ref, readonly, reactive } from 'vue'
 
 	let sum1 = ref(0)

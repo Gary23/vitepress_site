@@ -9,6 +9,12 @@
 </template>
 
 <script setup lang="ts" name="Father">
+	/**
+	 * markRaw 是用来标记一个对象为不可响应式的，即这个对象不会被 Vue 实例的响应式系统所跟踪。
+	 * 这意味着对这个对象的任何修改都不会触发 Vue 的响应式更新。
+	 * 通常，Vue 会自动将一个对象及其所有子对象都标记为响应式的，除非使用 markRaw 来标记。
+	 */
+
 	import { reactive, markRaw } from 'vue'
 
 	let car1 = {

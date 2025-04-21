@@ -9,7 +9,7 @@
 </template>
 
 <script setup lang="ts" name="Father">
-	import { ref, customRef } from 'vue'
+	import { ref } from 'vue'
 	let sum1 = ref(0)
 	import sum2 from './hooks/useSumRef.ts'
 

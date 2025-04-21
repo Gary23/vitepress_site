@@ -13,6 +13,10 @@
 </template>
 
 <script setup lang="ts" name="Father">
+/**
+ * Suspense 组件
+ * 可以包裹一个组件，当组件加载完成后，会显示组件内容，否则显示fallback内容
+ */
 import Child from './Child.vue'
 
 </script>
